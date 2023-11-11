@@ -1,0 +1,195 @@
+Activity 6: Practice: Kotlin Fundamentals
+
+6.2 Mobile notifications
+fun main() {
+    val morningNotification = 51
+    val eveningNotification = 135
+    
+    printNotificationSummary(morningNotification)
+    printNotificationSummary(eveningNotification)
+}
+
+fun printNotificationSummary(numberOfMessages: Int) {
+    println("You have $numberOfMessages notifications.")
+
+    if (numberOfMessages >= 100) {
+        println("Your phone is blowing up! You have 99+ notifications.")
+    }
+}
+
+
+6.3 Movie-ticket price
+fun main() {
+    val child = 5
+    val adult = 28
+    val senior = 87
+    
+    val isMonday = true
+    
+    println("The movie ticket price for a person aged $child is \$${ticketPrice(child, isMonday)}.")
+    println("The movie ticket price for a person aged $adult is \$${ticketPrice(adult, isMonday)}.")
+    println("The movie ticket price for a person aged $senior is \$${ticketPrice(senior, isMonday)}.")
+}
+
+fun ticketPrice(age: Int, isMonday: Boolean): Int {
+    var basePrice = when {
+        age < 18 -> 15
+        age >= 65 -> 20
+        else -> 25
+    }
+
+    if (isMonday) {
+        basePrice -= 5
+    }
+
+    return basePrice
+}
+
+
+6.4 Temperature converter
+fun main() {
+    printFinalTemperature(27.0, "Celsius", "Fahrenheit") { celsiusToFar(it) }
+    printFinalTemperature(350.0, "Kelvin", "Celsius") { kelvinToCelsius(it) }
+    printFinalTemperature(10.0, "Fahrenheit", "Kelvin") { fahrenheitToKelvin(it) }
+}
+
+fun celsiusToFar(celsius: Double): Double = celsius * 9 / 5 + 32
+fun kelvinToCelsius(kelvin: Double): Double = kelvin - 273.15
+fun fahrenheitToKelvin(fahrenheit: Double): Double = (fahrenheit + 459.67) * 5 / 9
+
+
+
+fun printFinalTemperature(
+    initialMeasurement: Double, 
+    initialUnit: String, 
+    finalUnit: String, 
+    conversionFormula: (Double) -> Double
+) {
+    val finalMeasurement = String.format("%.2f", conversionFormula(initialMeasurement)) // two decimal places
+    println("$initialMeasurement degrees $initialUnit is $finalMeasurement degrees $finalUnit.")
+}
+
+6.5 Song catalog
+fun main() {
+    val song1 = Song("Alien", "Hua Chenyu", 2020, 100000)
+    song1.printSongDescription()
+    println(song1.isPopular)
+}
+
+class Song(
+    val title: String,
+    val artist: String,
+    val yearPublished: Int,
+    val playCount: Int
+) {
+    val isPopular: Boolean
+        get() = playCount >= 1000
+
+    fun printSongDescription() {
+        val popularity = if (isPopular) "popular" else "unpopular"
+        println("$title, performed by $artist, was released in $yearPublished.")
+    }
+}
+
+
+6.6 Internet profile
+fun main() {    
+    val amanda = Person("Amanda", 33, "play tennis", null)
+    val atiqah = Person("Atiqah", 28, "climb", amanda)
+    
+    amanda.showProfile()
+    atiqah.showProfile()
+}
+
+
+class Person(val name: String, val age: Int, val hobby: String?, val referrer: Person?) {
+   	fun showProfile() {
+    	println("Name: $name")
+    	println("Age: $age")
+    	if(hobby != null) {
+            print("Likes to $hobby. ")
+        }
+        if(referrer != null) {
+            print("Has a referrer named ${referrer.name}")
+            if(referrer.hobby != null) {
+                print(", who likes to ${referrer.hobby}.")
+            } else {
+                print(".")
+            }
+        } else {
+            print("Doesn't have a referrer.")
+        }
+        print("\n\n")
+    }
+}
+
+6.7 Foldable phones
+open class Phone(var isScreenLightOn: Boolean = false) {
+    open fun switchOn() {
+        isScreenLightOn = true
+    }
+
+    fun switchOff() {
+        isScreenLightOn = false
+    }
+
+    fun checkPhoneScreenLight() {
+        val phoneScreenLight = if (isScreenLightOn) "on" else "off"
+        println("The phone screen's light is $phoneScreenLight.")
+    }
+}
+
+class FoldablePhone(isScreenLightOn: Boolean = false, var isFolded: Boolean = false) : Phone(isScreenLightOn) {
+    override fun switchOn() {
+        if (!isFolded) {
+            super.switchOn()
+            println("The phone is unfolded. Turning on the screen.")
+        } else {
+            println("The phone is folded. Cannot turn on the screen.")
+        }
+    }
+
+    fun fold() {
+        isFolded = true
+        println("The phone is now folded.")
+    }
+
+    fun unfold() {
+        isFolded = false
+        println("The phone is now unfolded.")
+    }
+}
+
+fun main() {
+    val foldablePhone = FoldablePhone()
+
+    foldablePhone.checkPhoneScreenLight() 
+
+    foldablePhone.switchOn() 
+    foldablePhone.checkPhoneScreenLight() 
+
+    foldablePhone.fold() 
+    foldablePhone.switchOn() 
+}
+
+
+6.8 Special auction
+fun main() {
+    val winningBid = Bid(5000, "Private Collector")
+    
+    println("Item A is sold at ${auctionPrice(winningBid, 2000)}.")
+    println("Item B is sold at ${auctionPrice(null, 3000)}.")
+}
+
+class Bid(val amount: Int, val bidder: String)
+ 
+fun auctionPrice(bid: Bid?, minimumPrice: Int): Int {
+    return bid?.let {
+        if (it.amount >= minimumPrice) {
+            it.amount
+        } else {
+            minimumPrice
+        }
+    } ?: minimumPrice
+}
+

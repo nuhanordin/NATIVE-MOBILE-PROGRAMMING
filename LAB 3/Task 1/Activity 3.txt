@@ -1,0 +1,19 @@
+Activity 3: Use nullability in Kotlin
+
+3.2 Use nullable variable
+fun main() {
+    var number: Int? = 10
+    println(number)
+    
+    number = null
+    println(number)
+}
+
+3.3 Handle nullable variables
+fun main() {
+    var favoriteActor: String? = "Sandra Oh"
+
+    val lengthOfName = favoriteActor?.length ?: 0
+
+    println("The number of characters in your favorite actor's name is $lengthOfName.")
+}
