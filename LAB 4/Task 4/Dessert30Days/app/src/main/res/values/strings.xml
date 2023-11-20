@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">A Day of Dessert</string>
+
+    <string name="name1">Mini Baileys Basque Cheesecakes</string>
+    <string name="name2">Baked Lemon Tart</string>
+    <string name="name3">Air Fryer Custard Doughnuts</string>
+    <string name="name4">Lemon Dream</string>
+    <string name="name5">Caramilk Custard Slice</string>
+    <string name="name6">Air Fryer Caramilk Bomboloni</string>
+    <string name="name7">Lemon and Custard Croissant Pudding</string>
+    <string name="name8">Caramilk Anzac Cheesecake</string>
+    <string name="name9">Baileys Cheesecake</string>
+    <string name="name10">Pie Maker Cheesecake Swirl Brownies</string>
+    <string name="name11">Cloudy Lemon Pie</string>
+    <string name="name12">Bomboloni</string>
+    <string name="name13">White Christmas Cheesecake</string>
+    <string name="name14">Easy Christmas Trifle Wreath</string>
+    <string name="name15">Muffin Pan Lemon Custard Tarts</string>
+    <string name="name16">Espresso Martini Baked Cheesecake</string>
+    <string name="name17">Espresso Martini Ripple Cakes</string>
+    <string name="name18">Lemon Ripple Cheesecake</string>
+    <string name="name19">Golden Syrup Microwave Mug Cake</string>
+    <string name="name20">Ferrero Rocher Brownies</string>
+    <string name="name21">Chocolate Bowls</string>
+    <string name="name22">Lemon Meringue Lamingtons</string>
+    <string name="name23">New York Baked Cheesecake</string>
+    <string name="name24">Chocolate Raspberry Danish</string>
+    <string name="name25">Banana Caramel Slice</string>
+    <string name="name26">Lemon Delicious Slice</string>
+    <string name="name27">Lemon Cheesecake Ice-Cube Tray Dessert Pies</string>
+    <string name="name28">Butterscotch Shortbread Slice</string>
+    <string name="name29">Condensed Milk Anzac Slab</string>
+    <string name="name30">2-Minute Tiramisu</string>
+
+
+
+    <string name="desc1">Basque cheesecakes are known for their dark, “burnt” look. These mini versions are made in a silicone cupcake pan and flavoured with Baileys Irish Cream liqueur. They are extra creamy and indulgent, a perfect dinner party dessert.</string>
+    <string name="desc2">Light, refreshing and tangy, this baked lemon tart is a timeless classic.</string>
+    <string name="desc3">Featuring a whole block of Caramilk, four sticks of Gaytime ice-cream and Arnott’s TV Snacks, this dessert is not for the faint-hearted. However, being made in an air-fryer, it\'s not oily like other doughnut recipes. Instead, you are left with soft, pillowy balls, oozing warm Golden Gaytime custard.</string>
+    <string name="desc4">This super easy no-bake cheesecake slice has a creamy lemon centre and a buttery biscuit base.</string>
+    <string name="desc5">A creamy Caramilk custard filling sandwiched between Malt \'o\' Milk biscuits - what\'s not to love about this no-bake slice?</string>
+    <string name="desc6">These mini doughnuts, filled with Caramilk custard make the perfect indulgent treat.</string>
+    <string name="desc7">Use store bought ingredients like lemon curd to upgrade the classic bread and butter fave to a luxe winter pud. Even better, there\'s only 5 ingredients needed to make it.</string>
+    <string name="desc8">A dessert match made in heaven: Caramilk, Anzac biscuits and creamy, creamy cheesecake.</string>
+    <string name="desc9">New York baked cheesecake on the bottom, creamy Baileys on top - does dessert get any better?</string>
+    <string name="desc10">Our cheesecake swirl brownies are an easy decadant dessert - guaranteed to impresss.</string>
+    <string name="desc11">With a buttery biscuit base, creamy sweetened condensed milk filling and topping of whipped cream, this zesty light-as-air pie is every baker\'s dream.</string>
+    <string name="desc12">This traditional Italian pastry is similar to a doughnut and is filled with a rich vanilla cream.</string>
+    <string name="desc13">This easy no-bake cheesecake has a white Christmas base and topping of whipped cream, Turkish delight, MnM\'s and marshmallows for a festive dessert anyone can make.</string>
+    <string name="desc14">For the easiest-ever no-cook Christmas dessert you can\'t beat this trifle wreath made from jelly, sponge rolls, custard and cream.</string>
+    <string name="desc15">This cheat\'s version of classic custard tarts has a lemony twist and uses a muffin pan and packet of butternut snap cookies to create the bases.</string>
+    <string name="desc16">What to know how to make espresso martini even better? Turn this classic cocktail into a creamy baked cheesecake with a choc ripple biscuit base.</string>
+    <string name="desc17">Espresso martini meets cake! With Choc Ripple biscuits and coffee-flavoured liqueur, this recipe is a perfect after-dinner treat (for adult\'s only).</string>
+    <string name="desc18">The lusciously light lemony centre makes this dessert cheesecake a standout.</string>
+    <string name="desc19">Ready in 10 minutes, this microwave golden syrup mug cake is a perfectly easy Nanna-inspired dessert.</string>
+    <string name="desc20">For a decadent dessert, try these gooey brownies made with Nutella and Ferrero Rocher chocolates.</string>
+    <string name="desc21">Make beautiful edible bowls of white, milk or dark chocolate using an inflated balloon as a mould. You can even customise them with your favourite nuts and sprinkles.</string>
+    <string name="desc22">These deliciously light lemon meringue lamingtons (or lemingtons as we like to call them) are filled with tangy lemon curd and creamy meringue buttercream and coated in shredded coconut.</string>
+    <string name="desc23">Take the cake and master the basics with this creamy baked version of a classic dessert.</string>
+    <string name="desc24">Filled with toasted hazelnuts, juicy raspberries and dark chocolate, this golden danish is best served warm, with a little extra chocolate drizzled on top.</string>
+    <string name="desc25">"This is one of my favourite treats to pack for picnics, lunchboxes and school fetes – I do love a sneaky shortcut!" - Michelle Southan</string>
+    <string name="desc26">The bake-sale classic gets a fun makeover with slices that are a cut above the rest!</string>
+    <string name="desc27">Puff pastry is the perfect base for quick and simple desserts and here, with the help of an ice-cube tray, we\'ve turned it into a bite-size treat you just have to try. Fill the little parcels with lemon curd and marshmallow and watch them disappear.</string>
+    <string name="desc28">With a buttery shortbread base, rich butterscotch sauce filling and topping of melted Caramilk chocolate, this slice is impossible to resist.</string>
+    <string name="desc29">This moreish slice contains only five ingredients and takes 10 minutes to prep. The Caramilk and condensed milk combo give it a rich caramel flavour, that will ensure you come back to this recipe time and time again.</string>
+    <string name="desc30">This recipe\'s name speaks for itself. A lovely tiramisu treat for yourself and a friend - done in two minutes.</string>
+</resources>
