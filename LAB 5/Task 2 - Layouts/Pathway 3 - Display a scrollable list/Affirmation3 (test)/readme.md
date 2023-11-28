@@ -1,1 +1,2 @@
-![image](https://github.com/nuhanordin/NATIVE-MOBILE-PROGRAMMING/assets/107660860/2d93207c-9c3e-433c-a695-fc22b399a1a8)
+
+![Recording-2023-11-28-123400](https://github.com/nuhanordin/NATIVE-MOBILE-PROGRAMMING/assets/107660860/54f138ac-2cb8-46a6-bdc6-750d33296868)
