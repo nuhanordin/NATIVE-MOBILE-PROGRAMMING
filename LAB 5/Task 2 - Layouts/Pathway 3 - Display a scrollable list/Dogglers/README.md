@@ -1,3 +1,10 @@
+Output
+----
+
+https://github.com/nuhanordin/NATIVE-MOBILE-PROGRAMMING/assets/107660860/58752020-e659-4dda-8a8e-f1ae29cf3300
+https://github.com/nuhanordin/NATIVE-MOBILE-PROGRAMMING/assets/107660860/380d258a-5484-452b-a446-3f0e03da4cb0
+https://github.com/nuhanordin/NATIVE-MOBILE-PROGRAMMING/assets/107660860/ad6f6197-8416-4ca7-85c7-b1ea42c5e9b4
+
 Dogglers - Starter Code
 ==================================
 
@@ -25,8 +32,4 @@ Tips
 
 - Use the provided tests to ensure your app is running as expected
 - DO NOT ALTER THE PROVIDED TESTS
-
-
-Output
-----
 
