@@ -3,6 +3,14 @@ DessertClicker - Code
 
 Code for Android Basics Codelab.
 
+Output
+------------
+![image](https://github.com/nuhanordin/NATIVE-MOBILE-PROGRAMMING/assets/107660860/3fc2c391-a24d-4756-af25-edf1fb0a73db)
+![image](https://github.com/nuhanordin/NATIVE-MOBILE-PROGRAMMING/assets/107660860/f24bc290-19b8-4854-af93-da843c1ef695)
+![image](https://github.com/nuhanordin/NATIVE-MOBILE-PROGRAMMING/assets/107660860/57252d1f-51a4-4a19-86b6-71010eefef4f)
+
+
+
 Introduction
 ------------
 
