@@ -1,3 +1,10 @@
+Output
+------------
+![image](https://github.com/nuhanordin/NATIVE-MOBILE-PROGRAMMING/assets/107660860/7b1ddf01-d04f-4cdf-bc38-0acd8b749fe1)
+![image](https://github.com/nuhanordin/NATIVE-MOBILE-PROGRAMMING/assets/107660860/9ab772c4-ad5f-4056-8919-9afcd244b5bb)
+
+
+
 MarsPhotos - Starter Code
 ==================================
 
